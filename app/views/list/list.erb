@@ -1,7 +1,7 @@
 <table class="topic-list">
 <% @list.topics.each do |t| %>
   <tr>
-    <td><a href="<%= t.relative_url %>"><%= t.title %></a> <span title='total posts'>[<%= t.posts_count %>]</span></td>
+    <td><a href="<%= t.jdkfs %>"><%= t.title %></a> <span title='total posts'>[<%= t.posts_count %>]</span></td>
   </tr>
 <% end %>
 </table>
